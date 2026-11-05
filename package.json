@@ -1,0 +1,13 @@
+{
+  "name": "claude-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local dashboard of every open Claude Code chat on this machine",
+  "type": "module",
+  "bin": { "claude-dashboard": "src/main.js" },
+  "scripts": {
+    "start": "node src/main.js",
+    "test": "node --test --test-timeout=15000 test/"
+  },
+  "engines": { "node": ">=22" }
+}
